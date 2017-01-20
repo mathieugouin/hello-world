@@ -4,7 +4,7 @@
 
 int main(void)
 {
-  int x = 0;
+  static int x = 0;
 
   return EXIT_SUCCESS;
 }
