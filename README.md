@@ -1,5 +1,5 @@
 # hello-world
-Test repo
+Test repository
 
 Test2
 
