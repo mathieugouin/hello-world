@@ -11,6 +11,6 @@ test 3
 yes
 
 ## Sub head 2
-* list
-* list
-* list
+* list item 1
+* list item 2
+* list item 3
