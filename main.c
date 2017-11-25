@@ -6,7 +6,7 @@
  * Main function
  * TBD Missing argc & argv
  */
-int main(void)
+int main(int argc, char * argv[])
 {
   static int x = 0;
   int y = 1;
