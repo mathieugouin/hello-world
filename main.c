@@ -8,7 +8,7 @@
 int main(void)
 {
   static int x = 0;
-  int y = 0;
+  int y = 1;
 
   return EXIT_SUCCESS;
 }
