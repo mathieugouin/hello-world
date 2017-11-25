@@ -7,11 +7,10 @@ Master
 
 test 3
 
-## Sub head
+## Sub head 1
 yes
 
 ## Sub head 2
 * list
 * list
 * list
-
