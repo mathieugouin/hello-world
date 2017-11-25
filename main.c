@@ -4,7 +4,6 @@
 
 /**
  * Main function
- * TBD Missing argc & argv
  */
 int main(int argc, char * argv[])
 {
