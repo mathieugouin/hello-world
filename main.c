@@ -8,6 +8,7 @@
 int main(void)
 {
   static int x = 0;
+  int y = 0;
 
   return EXIT_SUCCESS;
 }
