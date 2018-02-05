@@ -1,0 +1,11 @@
+# Compiled output
+main
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
