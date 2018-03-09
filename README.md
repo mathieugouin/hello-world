@@ -44,3 +44,12 @@ Set upstream:
 
 ## Log
 `git log --oneline --decorate --graph --all`
+
+## Syncing fork
+`git fetch upstream`
+
+`git checkout master`
+
+`git merge upstream/master`
+
+push...
