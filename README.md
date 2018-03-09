@@ -3,6 +3,10 @@ Test repository
 
 ## Git notes
 
+### Initial download
+
+`git clone https://github.com/mathieugouin/hello-world.git .`
+
 ### Branch
 
 `git checkout <branch-name>`
