@@ -5,7 +5,11 @@ Test repository
 
 ### Initial download
 
+Current folder:
 `git clone https://github.com/mathieugouin/hello-world.git .`
+
+New folder:
+`git clone https://github.com/mathieugouin/hello-world.git new-folder`
 
 ### Branch
 
