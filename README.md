@@ -11,7 +11,6 @@ New folder:
 `git clone https://github.com/mathieugouin/hello-world.git new-folder`
 
 ## Modifs
-
 Check what changed:
 `git status`
 
@@ -30,6 +29,9 @@ Push local repo to remote repo (server):
 ## Branch
 List all:
 `git branch -a`
+
+Create new branch:
+`git branch <branch-name>`
 
 Switch to branch:
 `git checkout <branch-name>`
