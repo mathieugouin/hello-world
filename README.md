@@ -12,6 +12,9 @@ New folder:
 
 ## Modifs
 
+Check what changed:
+`git status`
+
 Add to staging:
 `git add <filename>`
 
