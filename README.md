@@ -3,11 +3,11 @@ Test repository
 
 ## Git notes
 
-git branch --set-upstream-to=origin/<branch> master
+`git branch --set-upstream-to=origin/<branch> master`
 
-git pull <remote> <branch>
+`git pull <remote> <branch>`
 
-git remote -v
+`git remote -v`
 
-git log --oneline --decorate --graph --all
+`git log --oneline --decorate --graph --all`
 
