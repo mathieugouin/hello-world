@@ -1,16 +1,16 @@
 # hello-world
 Test repository
 
-## Git notes
+# Git notes
 
-### Initial download
+## Initial download
 Current folder:
 `git clone https://github.com/mathieugouin/hello-world.git .`
 
 New folder:
 `git clone https://github.com/mathieugouin/hello-world.git new-folder`
 
-### Modifs
+## Modifs
 
 Add to staging:
 `git add <filename>`
@@ -18,10 +18,13 @@ Add to staging:
 Commit to local repo:
 `git commit -m "commit message"`
 
+Simultaneous add & commit to local repo:
+`git commit -a -m "commit message"`
+
 Push local repo to remote repo (server):
 `git push <remote-name> <branch-name>`  Example: `git push origin master`
 
-### Branch
+## Branch
 List all:
 `git branch -a`
 
@@ -31,11 +34,10 @@ Switch to branch:
 Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
 
-### Remote
+## Remote
 `git pull <remote> <branch>`
 
 `git remote -v`
 
-### Log
+## Log
 `git log --oneline --decorate --graph --all`
-
