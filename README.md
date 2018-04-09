@@ -33,6 +33,9 @@ List all:
 Create new branch:
 `git branch <branch-name>`
 
+Create new branch from another branch:
+`git branch <branch-name> <other-branch-name>`
+
 Switch to branch:
 `git checkout <branch-name>`
 
