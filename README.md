@@ -45,6 +45,7 @@ Set upstream:
 ## Remote
 `git pull <remote> <branch>`
 
+List all remote
 `git remote -v`
 
 ## Log
