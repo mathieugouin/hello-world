@@ -35,6 +35,9 @@ List all:
 Create new branch:
 `git branch <branch-name>`
 
+Create new branch from another branch:
+`git branch <branch-name> <other-branch-name>`
+
 Switch to branch:
 `git checkout <branch-name>`
 
@@ -44,6 +47,7 @@ Set upstream:
 ## Remote
 `git pull <remote> <branch>`
 
+List all remote
 `git remote -v`
 
 ## Log
