@@ -54,10 +54,8 @@ List all remote
 `git log --oneline --decorate --graph --all`
 
 ## Syncing fork
-`git fetch upstream`
+* `git fetch upstream`
+* `git checkout master`
+* `git merge upstream/master`
+* `git push origin master`
 
-`git checkout master`
-
-`git merge upstream/master`
-
-push...
