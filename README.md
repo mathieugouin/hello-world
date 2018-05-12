@@ -22,11 +22,14 @@ Add to staging:
 Commit to local repo:
 `git commit -m "commit message"`
 
-Simultaneous add & commit to local repo:
+Simultaneous auto add all changed files & commit to local repo:
 `git commit -a -m "commit message"`
 
 Push local repo to remote repo (server):
 `git push <remote-name> <branch-name>`  Example: `git push origin master`
+
+Retrieve changes done by others:
+`git pull`
 
 ## Branch
 List all:
