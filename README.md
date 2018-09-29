@@ -31,6 +31,10 @@ Push local repo to remote repo (server):
 Retrieve changes done by others:
 `git pull`
 
+## Revert
+Revert local changes
+`git reset --hard`
+
 ## Branch
 List all:
 `git branch -a`
@@ -71,4 +75,8 @@ List all remote
 * `git checkout master`
 * `git merge upstream/master`
 * `git push origin master`
+
+## Submodules
+
+https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
 
