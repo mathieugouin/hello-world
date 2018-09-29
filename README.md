@@ -47,6 +47,16 @@ Switch to branch:
 Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
 
+## Tag
+Create a new tag
+`git tag TAG_NAME`
+
+Push specific tag
+`git push origin TAG_NAME`
+
+Push all tags
+`git push --tags`
+
 ## Remote
 `git pull <remote> <branch>`
 
