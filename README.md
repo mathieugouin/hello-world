@@ -62,10 +62,12 @@ Push all tags
 `git push --tags`
 
 ## Remote
-`git pull <remote> <branch>`
 
 List all remote
 `git remote -v`
+
+Add new remote
+`git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 
 ## Log
 `git log --oneline --decorate --graph --all`
