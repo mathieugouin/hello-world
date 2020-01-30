@@ -16,6 +16,9 @@ New folder:
 Check what changed:
 `git status`
 
+Check what changed (simple view):
+`git status -s`
+
 Add to staging:
 `git add <filename>`
 
@@ -81,6 +84,5 @@ Nice & Pretty log: `git log --oneline --decorate --graph --all`
 * `git push origin master`
 
 ## Submodules
-
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
 
