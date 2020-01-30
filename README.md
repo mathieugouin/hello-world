@@ -65,7 +65,6 @@ Push all tags
 `git push --tags`
 
 ## Remote
-
 List all remote
 `git remote -v`
 
@@ -73,7 +72,7 @@ Add new remote
 `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 
 ## Log
-`git log --oneline --decorate --graph --all`
+Nice & Pretty log: `git log --oneline --decorate --graph --all`
 
 ## Syncing fork
 * `git fetch upstream`
