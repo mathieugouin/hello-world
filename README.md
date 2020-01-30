@@ -52,8 +52,11 @@ Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
 
 ## Tag
-Create a new tag
-`git tag TAG_NAME`
+List all tag
+`git tag`
+
+Create a new annotated tag + message
+`git tag -a -m "Tag message" TAG_NAME`
 
 Push specific tag
 `git push origin TAG_NAME`
