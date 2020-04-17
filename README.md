@@ -33,7 +33,13 @@ Retrieve changes done by others:
 Revert local changes
 `git reset --hard`
 
+Revert last commit
+`git reset --soft HEAD~1`
+
 ## Branch
+List:
+`git branch`
+
 List all:
 `git branch -a`
 
@@ -45,6 +51,9 @@ Create new branch from another branch:
 
 Switch to branch:
 `git checkout <branch-name>`
+
+Retrieve all remotes branch
+`git fetch origin`
 
 Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
