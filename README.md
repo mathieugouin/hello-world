@@ -49,6 +49,9 @@ Create new branch:
 Create new branch from another branch:
 `git branch <branch-name> <other-branch-name>`
 
+Create new branch + switch to it:
+`git checkout -b <branch-name>`
+
 Checkout a new local branch tracking a remote:
 `git checkout --track origin/<branch-name>`
 
