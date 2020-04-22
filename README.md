@@ -77,6 +77,13 @@ Push specific tag
 Push all tags
 `git push --tags`
 
+## Diff
+Diff between 2 branches
+`git diff branchA branchB`
+
+Diff between 2 branches, single file
+`git diff branchA branchB -- file.c`
+
 ## Remote
 List all remote
 `git remote -v`
