@@ -5,7 +5,7 @@ workflows:
   dist-compile:
     jobs:
       - compile
-      - run
+      - exec_program
 
 jobs:
   compile:
@@ -15,5 +15,5 @@ jobs:
       - checkout
       - run: cd src && make
 
-  run:
+  exec_program:
     - run: cd src && ./main
