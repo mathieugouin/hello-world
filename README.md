@@ -108,3 +108,7 @@ Nice & Pretty log: `git log --oneline --decorate --graph --all`
 ## Submodules
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
 
+## Reference Sites
+* http://gitimmersion.com
+* https://learngitbranching.js.org
+
