@@ -16,7 +16,7 @@ before_install:
 
 script:
   #- autoreconf -if
-  - ./configure
+  #- ./configure
   - cd src
   - make
   - ./main
