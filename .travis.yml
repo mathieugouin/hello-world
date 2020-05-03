@@ -19,4 +19,4 @@ script:
   #- ./configure
   - cd src
   - make
-  - ./main
+  - make test
