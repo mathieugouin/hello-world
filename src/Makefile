@@ -4,3 +4,7 @@ all : main.c
 
 clean :
 	rm main
+
+test :
+	./main
+	./main A B C D E F
