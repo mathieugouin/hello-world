@@ -100,6 +100,11 @@ Nice & Pretty log: `git log --oneline --decorate --graph --all`
 * `git merge upstream/master`
 * `git push origin master`
 
+## Squashing Commits
+2 steps:
+* Interactive rebase `git rebase -i <first commit HASH to sqash to>` Then use pick as the first one, then f.
+* Force pushing to remote `git push -f origin <branch_name>`
+
 ## Submodules
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
 
