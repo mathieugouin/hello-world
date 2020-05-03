@@ -1,4 +1,7 @@
 # test makefile
+
+.PHONY: clean test
+
 all : main.c
 	gcc -g3 -Og -Wall -o main main.c
 
