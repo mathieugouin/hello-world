@@ -29,6 +29,10 @@ Push local repo to remote repo (server):
 Retrieve changes done by others:
 `git pull`
 
+## Log
+Nice & Pretty log:
+`git log --oneline --decorate --graph --all`
+
 ## Revert
 Revert local changes
 `git reset --hard`
@@ -64,6 +68,10 @@ Retrieve all remotes branch
 Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
 
+## Merging
+Merge branch1 into master:
+`git checkout master && git merge branch1`
+
 ## Tag
 List all tag
 `git tag`
@@ -91,14 +99,15 @@ List all remote
 Add new remote
 `git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git`
 
-## Log
-Nice & Pretty log: `git log --oneline --decorate --graph --all`
-
 ## Syncing fork
 * `git fetch upstream`
 * `git checkout master`
 * `git merge upstream/master`
 * `git push origin master`
+
+## Rebasing
+Rebasing branch1 from master:
+`git checkout branch1 && git rebase master`
 
 ## Squashing Commits
 2 steps:
