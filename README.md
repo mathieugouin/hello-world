@@ -85,6 +85,9 @@ Push specific tag
 Push all tags
 `git push --tags`
 
+Delete tag
+`git tag -d TAG_NAME`
+
 ## Diff
 Diff between 2 branches
 `git diff branchA branchB`
