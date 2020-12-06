@@ -7,6 +7,9 @@ void test_func(void)
 {
     const char connectedString[]    = "CONNECTED";
     const char disconnectedString[] = "DISCONNECTED";
+    
+    printf("%s\n", connectedString);
+    printf("%s\n", disconnectedString);
 }
 
 int main(int argc, char * argv[])
