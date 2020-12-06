@@ -5,8 +5,8 @@
 
 void test_func(void)
 {
-    const cpl_Uint8_t connectedString[]    = "CONNECTED";
-    const cpl_Uint8_t disconnectedString[] = "DISCONNECTED";
+    const char connectedString[]    = "CONNECTED";
+    const char disconnectedString[] = "DISCONNECTED";
 }
 
 int main(int argc, char * argv[])
