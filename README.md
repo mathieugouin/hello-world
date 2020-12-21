@@ -120,6 +120,9 @@ Rebasing branch1 from master:
 ## Submodules
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
 
+Remove submodule
+`git rm path/to/submodule`
+
 ## Reference Sites
 * http://gitimmersion.com
 * https://learngitbranching.js.org
