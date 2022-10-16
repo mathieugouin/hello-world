@@ -95,6 +95,9 @@ Diff between 2 branches
 Diff between 2 branches, single file
 `git diff branchA branchB -- file.c`
 
+Diff show only affected files
+`git diff --name-only`
+
 ## Remote
 List all remote
 `git remote -v`
