@@ -72,6 +72,9 @@ Set upstream:
 Merge branch1 into master:
 `git checkout master && git merge branch1`
 
+Merge branchX into a single commit (will not be shown as merged)
+`git merge --squash branchX`
+
 ## Tag
 List all tag
 `git tag`
