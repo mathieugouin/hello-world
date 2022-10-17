@@ -37,6 +37,9 @@ Nice & Pretty log:
 Revert local changes
 `git reset --hard`
 
+Revert local changes single file
+`git checkout -- filename.txt`
+
 Revert last commit
 `git reset --soft HEAD~1`
 
