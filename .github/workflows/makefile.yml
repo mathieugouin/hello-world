@@ -18,6 +18,9 @@ jobs:
       run: |
         cd src
         make all
+        ls -la
 
     - name: Run
-      run: make test
+      run: |
+        cd src
+        make test
