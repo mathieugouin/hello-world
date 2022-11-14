@@ -3,15 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void test_func(void)
-{
-    const char connectedString[]    = "CONNECTED";
-    const char disconnectedString[] = "DISCONNECTED";
-    
-    printf("%s\n", connectedString);
-    printf("%s\n", disconnectedString);
-}
-
 int main(int argc, char * argv[])
 {
     int i;
@@ -20,7 +11,5 @@ int main(int argc, char * argv[])
         printf("argv[%d] = %s\n", i, argv[i]);
     }
 
-    test_func();
-    
     return EXIT_SUCCESS;
 }
