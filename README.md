@@ -123,8 +123,10 @@ Rebasing branch1 from master:
 
 ## Squashing Commits
 2 steps:
-* Interactive rebase `git rebase -i <first commit HASH to sqash to>` Then use pick as the first one, then f.
+* Interactive rebase `git rebase -i <first commit HASH to sqash to>` then use pick as the first one, then s.
 * Force pushing to remote `git push -f origin <branch_name>`
+
+Squash last 2 commits: `git rebase --interactive HEAD~2` then use pick as the first one, then s.
 
 ## Submodules
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
