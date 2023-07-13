@@ -26,8 +26,8 @@ Simultaneous auto add all changed files & commit to local repo:
 Push local repo to remote repo (server):
 `git push <remote-name> <branch-name>`  Example: `git push origin master`
 
-Retrieve changes done by others:
-`git pull`
+Retrieve changes done by others (forcing merge when required):
+`git pull origin master --no-rebase`
 
 ## Log
 Nice & Pretty log:
