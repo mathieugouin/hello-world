@@ -24,3 +24,8 @@ jobs:
       run: |
         cd src
         make test
+
+    - name: Clean
+      run: |
+        cd src
+        make clean
