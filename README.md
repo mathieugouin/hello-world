@@ -68,6 +68,9 @@ Switch to branch:
 Retrieve all remotes branch
 `git fetch origin`
 
+Switch to a newly fetched remote branch
+`git checkout --track origin/<branch>`
+
 Set upstream:
 `git branch --set-upstream-to=origin/<branch> master`
 
