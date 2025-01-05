@@ -76,7 +76,7 @@ Set upstream:
 
 ## Merging
 Merge branch1 into master:
-`git checkout master && git merge branch1`
+`git checkout master && git merge --no-ff branch1`
 
 Merge branchX into a single commit (will not be shown as merged)
 `git merge --squash branchX`
@@ -130,6 +130,19 @@ Rebasing branch1 from master:
 * Force pushing to remote `git push -f origin <branch_name>`
 
 Squash last 2 commits: `git rebase --interactive HEAD~2` then use pick as the first one, then s.
+
+## LFS
+Start tracking some files in LFS
+`git lfs track "*.pdf"`
+
+This will create the file `.gitattributes`, so add it to git: 
+`git add .gitattributes`
+
+List LFS tracked files
+`git lfs ls-files`
+
+After clone
+`git lfs pull`
 
 ## Submodules
 https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
